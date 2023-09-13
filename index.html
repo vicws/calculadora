@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora do Vitão</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora do Vitão</h1>
+        <div class="inputContainer">
+            <label for="primeiroNumero">Primeiro Número</label>
+            <input type="number" name="primeiroNumero" id="primeiroNumero" value="0">
+            <label for="segundoNumero">Primeiro Número</label>
+            <input type="number" name="segundoNumero" id="segundoNumero" value="0">
+            <input type="button" id="botaoCalcular" value="Calcular" onclick="calcular()">
+        </div>
+    </header>
+    <main>
+
+        <div class="calculoContainer">
+            <p class="calculoNome">Soma</p>
+            <p class="resultado" id="soma"></p>
+        </div>
+
+        <div class="calculoContainer">
+            <p class="calculoNome">Subtração A - B</p>
+            <p class="resultado" id="subtracaoAB"></p>
+        </div>
+
+        <div class="calculoContainer">
+            <p class="calculoNome">Subtração B - A</p>
+            <p class="resultado" id="subtracaoBA"></p>
+        </div>
+
+        <div class="calculoContainer">
+            <p class="calculoNome">Multiplicação</p>
+            <p class="resultado" id="multiplicacao"></p>
+        </div>
+
+        <div class="calculoContainer">
+            <p class="calculoNome">Divisão A / B</p>
+            <p class="resultado" id="divisaoAB"></p>
+        </div>
+
+        <div class="calculoContainer">
+            <p class="calculoNome">Divisão B / A</p>
+            <p class="resultado" id="divisaoBA"></p>
+        </div>
+
+        <div class="calculoContainer">
+            <p class="calculoNome">Potência de A na base B</p>
+            <p class="resultado" id="potenciaAB"></p>
+        </div>
+
+        <div class="calculoContainer">
+            <p class="calculoNome">Potência de B na base A</p>
+            <p class="resultado" id="potenciaBA"></p>
+        </div>
+
+        <div class="calculoContainer">
+            <p class="calculoNome">Raíz Quadrada de A</p>
+            <p class="resultado" id="raizA"></p>
+        </div>
+
+        <div class="calculoContainer">
+            <p class="calculoNome">Raíz Quadrada de B</p>
+            <p class="resultado" id="raizB"></p>
+        </div>
+
+        <div class="calculoContainer">
+            <p class="calculoNome">Fatorial de A</p>
+            <p class="resultado" id="fatorialA"></p>
+        </div>
+
+        <div class="calculoContainer">
+            <p class="calculoNome">Fatorial de B</p>
+            <p class="resultado" id="fatorialB"></p>
+        </div>
+
+        <div class="calculoContainer">
+            <p class="calculoNome">Porcentagem de A -> B</p>
+            <p class="resultado" id="porcentagemAB"></p>
+        </div>
+
+        <div class="calculoContainer">
+            <p class="calculoNome">Porcentagem de B -> A</p>
+            <p class="resultado" id="porcentagemBA"></p>
+        </div>
+
+        <div class="calculoContainer">
+            <p class="calculoNome">Média</p>
+            <p class="resultado" id="media"></p>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
